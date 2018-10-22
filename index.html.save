@@ -39,18 +39,64 @@
          </style>
       </head>
       <body class="mdl-color--orange">
+       
 
  <!--HEADER-->
 <div class="mdl-grid">
 <div class="mdl-layout-spacer"></div>
 	<div class="mdl-card-title mdl-cell--3-col mdl-color--black mdl-shadow--2dp mdl-cell">
-		<center><h3></h3></center>
+
+		<center><h3><SCRIPT LANGUAGE="Javascript">	
+		<!-- 
+
+		// Array of day names
+		var dayNames = new Array("Sunday","Monday","Tuesday","Wednesday",
+				"Thursday","Friday","Saturday");
+
+		// Array of month Names
+		var monthNames = new Array(
+		"January","February","March","April","May","June","July",
+		"August","September","October","November","December");
+
+		var now = new Date();
+		document.write(dayNames[now.getDay()] + ", " + 
+		monthNames[now.getMonth()] + " " + 
+		now.getDate() + ", " + now.getFullYear());
+
+		// -->
+		</SCRIPT></h3></center>
 	</div>           
 <div class="mdl-card-title mdl-cell--5-col mdl-color--black mdl-shadow--2dp mdl-cell">
  		<center><h1>KaliHome &trade;</h1></center>
        	</div>
-<div class="mdl-card-title mdl-cell--3-col mdl-color--black mdl-shadow--2dp mdl-cell">
-<center><h1>TestWeather</h1></center>
+<div class="mdl-cell--3-col mdl-color--black mdl-shadow--2dp mdl-cell">
+
+	<div class="showHumidity"></div>
+
+	<div class="showTemp"></div>
+
+	<script type="text/javascript">
+
+$(document).ready(function() {
+    let request = new XMLHttpRequest();
+    let url = `http://api.openweathermap.org/data/2.5/weather?zip=19904,us;
+
+
+    request.onreadystatechange = function() {
+        let response = JSON.parse(this.responseText);
+        getElements(response);
+    }
+
+    request.open("GET", url, true);
+    request.send();
+
+    getElements = function(response) {
+      $('.showHumidity').text(`The humidity in ${city} is ${response.main.humidity}%`);
+      $('.showTemp').text(`The temperature in Celcius is ${response.main.temp} degrees.`);
+    }
+  });
+});
+</script>
 </div>
 
 <div class="mdl-layout-spacer"></div>
@@ -146,7 +192,7 @@
                <div class="mdl-color--black mdl-shadow--2dp mdl-cell">
                   <div class="mdl-card-title">
                      <center>
-                        <h2>Heat Lamp</h2>
+                        <h2> Interior Light 1</h2>
                      </center>
                   </div>
                   <center>
@@ -167,7 +213,7 @@
                <div class="mdl-color--black mdl-shadow--2dp mdl-cell">
                   <div class="mdl-card-title">
                      <center>
-                        <h2>Interior Light</h2>
+                        <h2>Interior Light 2</h2>
                      </center>
                   </div>
                   <center>
@@ -188,7 +234,7 @@
                <div class="mdl-color--black mdl-shadow--2dp mdl-cell">
                   <div class="mdl-card-title">
                      <center>
-                        <h2>Water Bottle</h2>
+                        <h2>Interior Light 3</h2>
                      </center>
                   </div>
                   <center>
@@ -209,7 +255,7 @@
                <div class="mdl-color--black mdl-shadow--2dp mdl-cell">
                   <div class="mdl-card-title">
                      <center>
-                        <h2>Cooling Fan</h2>
+                        <h2>Fan</h2>
                      </center>
                   </div>
                   <center>

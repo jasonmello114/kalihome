@@ -14,6 +14,10 @@
  * limitations under the License.
  */
 
+
+.mdl-cardleft{
+color: rgb(255,171,64);
+}
 html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
 }
