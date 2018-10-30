@@ -5,7 +5,7 @@ var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "jason" && password == "Lacee123"){
 alert ("Login successfully");
-window.location = "main.html"; // Redirecting to other page.
+window.location.replace("http://stackoverflow.com");
 return false;
 }
 else{
