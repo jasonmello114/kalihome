@@ -4,8 +4,8 @@ function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "jason" && password == "Lacee123"){
-window.location.href = "http://stackoverflow.com";
 alert ("Login successfully");
+window.location.href = "main.html";
 return false;
 }
 else{
