@@ -4,13 +4,13 @@ function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "jason" && password == "Lacee123"){
-alert ("Login successfully");
 window.location.replace("http://stackoverflow.com");
+alert ("Login successfully");
 return false;
 }
 else{
 attempt --;// Decrementing by one.
-alert("You have left "+attempt+" attempt;");
+alert("You have "+attempt+" attempts left;");
 // Disabling fields after 3 attempts.
 if( attempt == 0){
 document.getElementById("username").disabled = true;
