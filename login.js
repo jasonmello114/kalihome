@@ -5,7 +5,7 @@ var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "jason" && password == "Lacee123"){
 alert ("Login successfully");
-window.location.href = "main.html";
+window.location.href = "kalismarthome.com/main.html";
 return false;
 }
 else{
