@@ -4,7 +4,7 @@ function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "jason" && password == "Lacee123"){
-alert ("Login successfully");
+//alert ("Login successfully");
 window.location.href = "kalismarthome.com/dash.html";
 return false;
 }
