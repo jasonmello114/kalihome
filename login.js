@@ -7,7 +7,7 @@ var password = document.getElementById("password").value;
 
   if ( username == "jason" && password == "Lacee123"){
 /*alert ("Login successfully");*/
-window.location.href = "kalismarthome.com/dash.html";
+window.location.href = "/dash.html";
 return false;
 }
   
