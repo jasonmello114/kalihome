@@ -4,7 +4,7 @@ var password = document.getElementById("password").value;
 
   if ( username == "jason" && password == "Lacee123"){
 window.location.href = "https://www.google.com";
-return false;
+//return false;
 }
 }
 /*else{
@@ -17,5 +17,3 @@ document.getElementById("password").disabled = true;
 document.getElementById("submit").disabled = true;
 return false;
 }*/
-}
-}
