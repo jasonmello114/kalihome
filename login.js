@@ -3,7 +3,7 @@ var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 
   if ( username == "jason" && password == "Lacee123"){
-window.location.href = "dash.html";
+window.location.href = "https://www.google.com";
 return false;
 }
 }
