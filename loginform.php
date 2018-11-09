@@ -21,7 +21,7 @@
       if(isset($_POST['submit'])){
         $username = $_POST['username']; $password = $_POST['password'];
         if($username === 'admin' && $password === 'password'){
-          $_SESSION['login'] = true; header('LOCATION:dash.php'); die();
+          $_SESSION['login'] = true; header('LOCATION:index.php'); die();
         } {
           echo "<div class='alert alert-danger'>Username and Password do not match.</div>";
         }
