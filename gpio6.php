@@ -19,5 +19,5 @@
                         sleep(1);
                 }
         }
-		header('Location: index.html'); 
+		header('Location: dash.html'); 
         ?>
