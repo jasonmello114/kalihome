@@ -7,8 +7,12 @@
  */
 
 @charset "UTF-8";
-html {
-	color: rgba(0, 0, 0, .87)
+html { 
+  background: url(images/bg-01.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 ::-moz-selection {
