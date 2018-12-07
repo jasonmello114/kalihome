@@ -38,13 +38,30 @@
             }
          </style>
       </head>
-      <body background="images/bg-01.jpg">
+	   <script>
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =
+  h + ":" + m + ":" + s;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+      <body onload="startTime()" background="images/bg-01.jpg">
 
  <!--HEADER-->
 <div class="mdl-grid">
 <div class="mdl-layout-spacer"></div>
 	<div class="mdl-card-title mdl-cell--3-col mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
-		<center><h1 style="color:white;">11:32</h1></center>
+		<center><h1 style="color:white;"><div id="txt"></div></h1></center>
 	</div>
 <div class="mdl-card-title mdl-cell--5-col mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
  		<center><h1 style="color:white;">KaliHome &trade;</h1></center>
