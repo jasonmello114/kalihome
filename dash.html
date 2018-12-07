@@ -1,6 +1,8 @@
 <html>
    <html lang="en">
       <head>
+         <script type="text/javascript" src="js/jquery.js"></script>
+         <script type="text/javascript" src="js/jquery.simpleWeather.js"></script>
          <meta charset="utf-8">
          <meta http-equiv="X-UA-Compatible" content="IE=edge">
          <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
@@ -55,6 +57,30 @@
            return i;
          }
       </script>
+      <script type="text/javascript">
+	/* Yahoo Weather */
+	$(document).ready(function() {
+	  getWeather(); //Get the initial weather.
+    setInterval(getWeather, 600000); //Update the weather every 10 minutes.
+    });
+	
+	function getWeather() {
+      $.simpleWeather({
+     location: 'Camden, Delaware',
+     /* woeid: '', */
+     unit: 'f',
+    
+	success: function(weather) {
+      html = '<li><i class="icon_w-'+weather.code+'"></i> '+weather.city+', '+weather.region+' '+weather.temp+'&deg;'+weather.units.temp+'</li>';
+     $("#weather").html(html);
+    },
+   
+   error: function(error) {
+      $("#weather").html('<p>'+error+'</p>');
+    }
+  });
+}
+</script>
       <body onload="startTime()" background="images/bg-01.jpg">
          <!--HEADER-->
          <div class="mdl-grid">
@@ -73,7 +99,7 @@
             </div>
             <div class="mdl-card-title mdl-cell--3-col mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
                <center>
-                  <h1 style="color:white;"></h1>
+                  <h1 style="color:white;"><span id="weather"></span></h1>
                </center>
             </div>
             <div class="mdl-layout-spacer"></div>
