@@ -55,6 +55,12 @@
            return i;
          }
       </script>
+      <script>
+function weather(o){
+document.getElementById("res").innerHTML="current temperature in Atlanta, Georgia is "+o.query.results.channel.item.condition.temp+" degrees farenheit."
+}
+</script>
+      <script type="text/javascript" src="http://query.yahooapis.com/v1/public/yql?q=select%20item%20from%20weather.forecast%20where%20location%3D%2230341%22&format=json&callback=weather"></script>
       <body onload="startTime()" background="images/bg-01.jpg">
          <!--HEADER-->
          <div class="mdl-grid">
@@ -73,7 +79,7 @@
             </div>
             <div class="mdl-card-title mdl-cell--3-col mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
                <center>
-                  <h1 style="color:white;">42<span>&#176;</span></h1>
+                  <h1 style="color:white;"><div id="res"></div></h1>
                </center>
             </div>
             <div class="mdl-layout-spacer"></div>
