@@ -3089,15 +3089,15 @@ input.mdl-button[type="submit"] {
 }
 
 .mdl-button--fab.mdl-button--colored:hover {
-	background-color: rgb(255, 171, 64)
+	background-color: rgb(255, 9, 8)
 }
 
 .mdl-button--fab.mdl-button--colored:focus:not(:active) {
-	background-color: rgb(255, 171, 64)
+	background-color: rgb(255, 9, 8)
 }
 
 .mdl-button--fab.mdl-button--colored:active {
-	background-color: rgb(255, 171, 64)
+	background-color: rgb(255, 9, 8)
 }
 
 .mdl-button--fab.mdl-button--colored .mdl-ripple {
