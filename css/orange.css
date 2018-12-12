@@ -7233,7 +7233,7 @@ fieldset[disabled] .mdl-textfield .mdl-textfield__label,
 	.mdl-cell {
 		margin: 8px;
 		width: calc(50% - 16px)
-		height: 150px;
+		height: 150px
 	}
 	.mdl-grid--no-spacing>.mdl-cell {
 		width: 50%
