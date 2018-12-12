@@ -86,10 +86,11 @@
             </div>
             <div class="mdl-layout-spacer"></div>
          </div>
-         <form action="#" method="POST">
+        <!-- <form action="#" method="POST">
             <input type="text" name="signout" value="value" style="display: none;"/>
             <input type="submit" value="sign out"/>
-         </form>
+         </form>-->
+         
          <!--CREATION OF BUTTONS-->
          <main>
             <div class="mdl-grid">
