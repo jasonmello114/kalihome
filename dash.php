@@ -1,8 +1,6 @@
 <?php
    require "login.php";
-   echo "<script>alert('t');</script>";
    if($_POST["sign out"]) {
-     echo "<script>alert('test');</script>";
      session_unset();
      session_destroy();
    }
@@ -88,7 +86,7 @@
             <div class="mdl-layout-spacer"></div>
          </div>
          <form action="#" method="POST">
-            <input type="text" value="sign out" style="display: none;"/>
+            <input type="text" name="sign out" style="display: none;"/>
             <input type="submit" value="sign out"/>
          </form>
          <!--CREATION OF BUTTONS-->
