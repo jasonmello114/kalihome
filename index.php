@@ -45,20 +45,20 @@
 						KaliHome Login
 					</span>
 
-					<div class="wrap-input100 validate-input" data-validate = "Enter username">
-						<input class="input100" type="text" name="username" placeholder="Username">
+					<div class="wrap-input100 validate-input" data-validate = "Enter username" onclick="document.getElementsByClassName('validate-input')[0].style = '';">
+						<input class="input100" type="text" name="username" placeholder="Username" title="Enter your username">
 						<span class="focus-input100" data-placeholder="&#xf207;"></span>
 					</div>
 
-					<div class="wrap-input100 validate-input" data-validate="Enter password">
-						<input class="input100" type="password" name="password" placeholder="Password">
+					<div class="wrap-input100 validate-input" data-validate="Enter password" onclick="document.getElementsByClassName('validate-input')[1].style = '';">
+						<input class="input100" type="password" name="password" placeholder="Password" title="Enter your password">
 						<span class="focus-input100" data-placeholder="&#xf191;"></span>
 					</div>
 
 
 					<div class="container-login100-form-btn">
-						<input type="submit" value="Login" class="login100-form-btn" style="background-color: white; margin-right: 20px"/>
-						<input type="reset" value="Reset" class="login100-form-btn" style="background-color: white"/>
+						<input type="submit" value="Login" class="login100-form-btn" style="background-color: white; margin-right: 20px" title="Login to KaliHome"/>
+						<input type="reset" value="Reset" class="login100-form-btn" style="background-color: white" title="Reset the form"/>
 					</div>
 				</form>
 			</div>
@@ -99,7 +99,9 @@
 			exit();
 		}
 		else {
-			echo "<script>alert('FAIL')</script>";
+			echo "<script>document.getElementsByClassName('validate-input')[0].style = 'border-color: red; border-style: solid; border-radius: 7px; border-width: 1px;';</script>";
+			echo "<script>document.getElementsByClassName('validate-input')[1].style = 'border-color: red; border-style: solid; border-radius: 7px; border-width: 1px;';</script>";
+			echo "<script>alert('Invalid login')</script>";
 		}
 	}
 	elseif($_SESSION["username"] && $_SESSION["password"] && array_key_exists($_SESSION["username"], $users) && $users[$_SESSION["username"]] == $_SESSION["password"]) {
