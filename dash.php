@@ -86,7 +86,7 @@
             <div class="mdl-layout-spacer"></div>
          </div>
          <form action="#" method="POST">
-            <input type="text" name="sign out" style="display: none;"/>
+            <input type="text" name="sign out" value="value" style="display: none;"/>
             <input type="submit" value="sign out"/>
          </form>
          <!--CREATION OF BUTTONS-->
