@@ -1,7 +1,8 @@
 <?php
    require "login.php";
    if($_POST["sign out"]) {
-     echo "TEST";
+     echo "<script>alert('test');</script>";
+     session_unset();
      session_destroy();
    }
 ?>
