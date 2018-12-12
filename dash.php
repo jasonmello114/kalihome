@@ -1,4 +1,10 @@
-<?php require "login.php"; ?>
+<?php
+   require "login.php";
+   if($_POST["sign out"]) {
+     echo "TEST";
+     session_destroy();
+   }
+?>
 <!DOCTYPE html>
    <html lang="en">
       <head>
@@ -263,10 +269,4 @@
                   </center>
                </div>-->
          </main>
-         <?php
-            if($_POST["sign out"]) {
-               echo "TEST";
-               session_destroy();
-            }
-         ?>
       </body>
