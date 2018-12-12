@@ -1,5 +1,6 @@
 <?php
    require "login.php";
+   echo "<script>alert('t');</script>";
    if($_POST["sign out"]) {
      echo "<script>alert('test');</script>";
      session_unset();
