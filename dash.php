@@ -265,6 +265,7 @@
          </main>
          <?php
             if($_POST["sign out"]) {
+               echo "TEST";
                session_destroy();
             }
          ?>
