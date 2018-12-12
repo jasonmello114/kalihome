@@ -1,4 +1,5 @@
-<html>
+<?php require "login.php"; ?>
+<!DOCTYPE html>
    <html lang="en">
       <head>
          <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico|Permanent+Marker|Righteous" rel="stylesheet">
@@ -73,7 +74,7 @@
             </div>
             <div class="mdl-card-title mdl-cell--3-col mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
                <center>
-                  <h1 style="color:white;"></h1>
+                  <h1 style="color:white;"><a href="settings.php" style="text-decoration: none; color: white;">Settings</a></h1>
                </center>
             </div>
             <div class="mdl-layout-spacer"></div>

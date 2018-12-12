@@ -1,5 +1,5 @@
-
 <?php
+	require "login.php";
          shell_exec("/usr/local/bin/gpio -g mode 5 out");
          if(isset($_GET['off']))
          {

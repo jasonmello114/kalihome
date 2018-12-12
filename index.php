@@ -1,3 +1,6 @@
+<?php
+	session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,15 +28,15 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	
+
 <!--===============================================================================================-->
 </head>
 <body>
-	
+
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
 			<div class="wrap-login100">
-				<form name="login" class="login100-form validate-form">
+				<form name="login" action="#" method="POST" class="login100-form validate-form">
 					<span class="login100-form-logo">
 						<i class="zmdi zmdi-lock"></i>
 					</span>
@@ -43,43 +46,24 @@
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Enter username">
-						<input class="input100" type="text" name="userid" placeholder="Username">
+						<input class="input100" type="text" name="username" placeholder="Username">
 						<span class="focus-input100" data-placeholder="&#xf207;"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Enter password">
-						<input class="input100" type="password" name="pswrd" placeholder="Password">
+						<input class="input100" type="password" name="password" placeholder="Password">
 						<span class="focus-input100" data-placeholder="&#xf191;"></span>
 					</div>
 
 
 					<div class="container-login100-form-btn">
-						<button onclick="check(this.form)" value="Login" class="login100-form-btn">
-							Login
-						</button>
+						<input type="submit" value="Login" class="login100-form-btn" style="background-color: white; margin-right: 20px"/>
+						<input type="reset" value="Reset" class="login100-form-btn" style="background-color: white"/>
 					</div>
 				</form>
-				<script language="javascript">
-		function check(form)/*function to check userid & password*/
-		{
-		 /*the following code checkes whether the entered userid and password are matching*/
- 		if(form.userid.value == "admin" && form.pswrd.value == "password")
-		  {
-			  //window.close()
- 		   window.open('dash.html')/*opens the target page while Id & password matches*/
-			  
-		  }
-		 else
-		 {
-		   alert("Error! Incorrect Username or Password!")/*displays error message*/
- 		 }
-}
-</script>
 			</div>
 		</div>
 	</div>
-	
-
 	<div id="dropDownSelect1"></div>
 <!--===============================================================================================-->
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
@@ -96,6 +80,32 @@
 <!--===============================================================================================-->
 	<script src="vendor/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
-
+<?php
+	$file = fopen("users.txt", "r+");
+	$contents = fread($file, filesize("users.txt"));
+	$users = array();
+	$array = array_slice(explode("\n", $contents), 0, -1);
+	foreach($array as $line) {
+		$tmp = explode(":", $line);
+		$users[$tmp[0]] = $tmp[1];
+	}
+	fclose($file);
+	$salt = "Ashish is the best";
+	if($_POST["username"] && $_POST["password"]) {
+		if(array_key_exists($_POST["username"], $users) && $users[$_POST["username"]] == hash("sha256", $salt . $_POST["password"])) {
+			$_SESSION["username"] = $_POST["username"];
+			$_SESSION["password"] = $users[$_POST["username"]];
+			echo "<script>window.location.href = 'dash.php';</script>";
+			exit();
+		}
+		else {
+			echo "<script>alert('FAIL')</script>";
+		}
+	}
+	elseif($_SESSION["username"] && $_SESSION["password"] && array_key_exists($_SESSION["username"], $users) && $users[$_SESSION["username"]] == $_SESSION["password"]) {
+		echo "<script>window.location.href = 'dash.php';</script>";
+		exit();
+	}
+?>
 </body>
 </html>
