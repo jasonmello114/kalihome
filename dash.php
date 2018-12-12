@@ -79,6 +79,10 @@
             </div>
             <div class="mdl-layout-spacer"></div>
          </div>
+         <form action="#" method="POST">
+            <input type="text" value="sign out" style="display: none;"/>
+            <input type="submit" value="sign out"/>
+         </form>
          <!--CREATION OF BUTTONS-->
          <main>
             <div class="mdl-grid">
@@ -259,4 +263,9 @@
                   </center>
                </div>-->
          </main>
+         <?php
+            if($_POST["sign out"]) {
+               session_destroy();
+            }
+         ?>
       </body>
