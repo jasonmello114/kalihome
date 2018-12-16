@@ -73,7 +73,11 @@
             </div>
             <div class="mdl-card-title mdl-cell--3-col mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
                <center>
-                  <h1 style="color:white;"></h1>
+                  <h1 style="color:white;">
+                     <?php
+                        echo exec("./dht.py");
+                     ?>
+                  </h1>
                </center>
             </div>
             <div class="mdl-layout-spacer"></div>
