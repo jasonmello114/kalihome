@@ -75,7 +75,7 @@
                <center>
                   <h1 style="color:white;">
                      <?php
-                        echo exec("./dht.py");
+                        echo exec("sudo python3 dht.py") . " &deg;F";
                      ?>
                   </h1>
                </center>
