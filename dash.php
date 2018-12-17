@@ -255,11 +255,11 @@
                      </form>
                   </center>
                </div>
-            <!--<div class="mdl-shadow--2dp mdl-cell-6" style="background-color:#3c3a3f">
+            <div class="mdl-shadow--2dp mdl-cell-6" style="background-color:#3c3a3f">
                <div class="mdl-card-title">
                   <center>
-                     <h4 style="color:white;">Smart Home Dashboard Developed by Jason Mello</h4>
+                     <h6 style="color:white;">Smart Home Dashboard Developed by Jason Mello</h4>
                   </center>
-               </div>-->
+               </div>
          </main>
       </body>
