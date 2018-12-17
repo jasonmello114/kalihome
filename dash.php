@@ -255,8 +255,8 @@
                      </form>
                   </center>
                </div>
-            <div class="mdl-shadow--2dp mdl-cell-6" style="background-color:#3c3a3f">
+            <center><div class="mdl-shadow--2dp mdl-cell-6" style="background-color:#3c3a3f">
                <font size="6">Smart Home Dashboard Developed by Jason Mello</font>
-               </div>
+               </div></center>
          </main>
       </body>
