@@ -256,10 +256,7 @@
                   </center>
                </div>
             <div class="mdl-shadow--2dp mdl-cell-6" style="background-color:#3c3a3f">
-               <div class="mdl-card-title">
-                  <center>
-                     <h6 style="color:white;">Smart Home Dashboard Developed by Jason Mello</h4>
-                  </center>
+               <h1>Smart Home Dashboard Developed by Jason Mello</h1>
                </div>
          </main>
       </body>
