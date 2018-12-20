@@ -265,5 +265,26 @@
                      </center>
                   </div>
                </div>
+               <!-- Christmas Lights -->
+               <div class="mdl-shadow--2dp mdl-cell--12-col" style="background-color:#83000c">
+                  <div class="mdl-card-title">
+                     <center>
+                        <h2 style="color:green;">Christmas Lights!</h2>
+                     </center>
+                  </div>
+                  <center>
+                     <form method="get" action="gpio2.php">
+                        <button type="submit" value="ON" name="on" class="spacebuttons mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+                        <i class="material-icons">power_settings_new</i>
+                        </button>
+                        <button type="submit" value="OFF" name="off" class="spacebuttons mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+                        <i class="material-icons">power_off</i>
+                        <button type="submit" value="BLINK" name="blink" class="spacebuttons mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+                        <i class="material-icons">star_half</i>
+                        </button>
+                        </button>
+                     </form>
+                  </center>
+               </div>
          </main>
       </body>
