@@ -281,9 +281,7 @@
                <div class="mdl-shadow--2dp mdl-cell--12-col" style="background-color:#3c3a3f">
                   <div class="mdl-card-title">
                      <center>
-                        <h3 style="color:white;">Made with Love for Kali by Jason</h2>
-                        <p>
-                        <h2 style="color:red;">View the Video!</h2>   
+                        <h3 style="color:white;">Made with Love for Kali by Jason</h3> 
                      </center>
                   </div>
                </div>
