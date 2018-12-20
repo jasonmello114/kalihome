@@ -257,7 +257,7 @@
                   </center>
                </div>-->
                 <!-- Christmas Lights -->
-               <div class="mdl-shadow--2dp mdl-cell--12-col" style="background-color:#83000c">
+               <div class="mdl-shadow--2dp mdl-cell--8-col" style="background-color:#83000c">
                   <div class="mdl-card-title">
                      <center>
                         <h2 style="color:green;">Christmas Lights!</h2>
