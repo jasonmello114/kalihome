@@ -256,16 +256,7 @@
                      </form>
                   </center>
                </div>-->
-               <div class="mdl-shadow--2dp mdl-cell--12-col" style="background-color:#3c3a3f">
-                  <div class="mdl-card-title">
-                     <center>
-                        <h3 style="color:white;">Made with Love for Kali by Jason</h2>
-                        <p>
-                        <h2 style="color:red;">View the Video!</h2>   
-                     </center>
-                  </div>
-               </div>
-               <!-- Christmas Lights -->
+                <!-- Christmas Lights -->
                <div class="mdl-shadow--2dp mdl-cell--12-col" style="background-color:#83000c">
                   <div class="mdl-card-title">
                      <center>
@@ -286,5 +277,16 @@
                      </form>
                   </center>
                </div>
+               <!-- Made with love -->
+               <div class="mdl-shadow--2dp mdl-cell--12-col" style="background-color:#3c3a3f">
+                  <div class="mdl-card-title">
+                     <center>
+                        <h3 style="color:white;">Made with Love for Kali by Jason</h2>
+                        <p>
+                        <h2 style="color:red;">View the Video!</h2>   
+                     </center>
+                  </div>
+               </div>
+              
          </main>
       </body>
