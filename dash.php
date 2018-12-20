@@ -88,19 +88,19 @@
                <!--View 1-->
                <div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
                   <div class="mdl-card-title">
-                     <center><iframe src="http://76.106.118.56:443/picture/1/current/" height="240"></iframe></center>
+                     <center><iframe src="http://76.106.118.56:443/picture/1/current/" height="200"></iframe></center>
                   </div>
                </div>
                <!-- View 2 -->
                <div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
                   <div class="mdl-card-title">
-                     <center><iframe src="http://76.106.118.56:443/picture/2/current/" height="240"></iframe></center>
+                     <center><iframe src="http://76.106.118.56:443/picture/2/current/" height="200"></iframe></center>
                   </div>
                </div>
                <!--View -->
                <div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
                   <div class="mdl-card-title">
-                     <center><iframe src="http://76.106.118.56:443/picture/3/current/" height="240"></iframe></center>
+                     <center><iframe src="http://76.106.118.56:443/picture/3/current/" height="200"></iframe></center>
                   </div>
                </div>
                <!--CARD 1-->
