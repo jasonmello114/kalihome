@@ -257,7 +257,7 @@
                   </center>
                </div>-->
                 <!-- Christmas Lights -->
-               <center><div class="mdl-shadow--2dp mdl-cell--8-col" style="background-color:#83000c">
+             <div class="mdl-shadow--2dp mdl-cell--13-col" style="background-color:#83000c">
                   <div class="mdl-card-title">
                      <center>
                         <h2 style="color:green;">Christmas Lights!</h2>
@@ -276,7 +276,7 @@
                         </button>
                      </form>
                   </center>
-               </div></center>
+               </div>
                <!-- Made with love -->
                </div><div class="mdl-shadow--2dp mdl-cell--12-col" style="background-color:#3c3a3f">
                   <div class="mdl-card-title">
