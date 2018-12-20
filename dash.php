@@ -256,10 +256,10 @@
                      </form>
                   </center>
                </div>-->
-               <div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
+               <div class="mdl-shadow--2dp mdl-cell--12-col" style="background-color:#3c3a3f">
                   <div class="mdl-card-title">
                      <center>
-                        <h2 style="color:white;">Heat Lamp</h2>
+                        <h1 style="color:red;">Made with Love for Kali by Jason Mello</h2>
                      </center>
                   </div>
                </div>
