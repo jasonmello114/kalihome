@@ -277,6 +277,7 @@
                      </form>
                   </center>
                </div>
+               <p>
                <!-- Made with love -->
                <div class="mdl-shadow--2dp mdl-cell--12-col" style="background-color:#3c3a3f">
                   <div class="mdl-card-title">
