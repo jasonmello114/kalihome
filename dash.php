@@ -113,7 +113,7 @@
                   </div>
                </div>
                <!--CARD 2-->
-               <div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
+               <!--<div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
                   <div class="mdl-card-title">
                      <center>
                         <h2 style="color:white;">Cooling Fan</h2>
@@ -129,7 +129,7 @@
                         </button>
                      </form>
                   </center>
-               </div>
+               </div>-->
                <!--CARD 3-->
                <div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
                   <div class="mdl-card-title">
@@ -203,7 +203,7 @@
                   </center>
                </div>
                <!--CARD 7-->
-               <div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
+               <!--<div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
                   <div class="mdl-card-title">
                      <center>
                         <h2 style="color:white;">Front Light</h2>
@@ -219,9 +219,9 @@
                         </button>
                      </form>
                   </center>
-               </div>
+               </div>-->
                <!--CARD 8-->
-               <div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
+              <!-- <div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
                   <div class="mdl-card-title">
                      <center>
                         <h2 style="color:white;">Rear Light</h2>
@@ -237,9 +237,9 @@
                         </button>
                      </form>
                   </center>
-               </div>
+               </div>-->
                <!--CARD 9-->
-                <div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
+               <!-- <div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
                   <div class="mdl-card-title">
                      <center>
                         <h2 style="color:white;">Misc.</h2>
@@ -255,6 +255,6 @@
                         </button>
                      </form>
                   </center>
-               </div>
+               </div>-->
          </main>
       </body>
