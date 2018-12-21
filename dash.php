@@ -68,7 +68,7 @@
             </div>
             <div class="mdl-card-title mdl-cell--5-col mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
                <center>
-                  <h1 style="color:white;">Kalihome</h1>
+                  <h1 href="http://76.106.118.56:443/" style="color:white;">Kalihome</h1>
                </center>
             </div>
             <div class="mdl-card-title mdl-cell--3-col mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
@@ -88,7 +88,7 @@
                <!--View 1-->
                <div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
                   <div class="mdl-card-title">
-                     <a href="http://76.106.118.56:443/"><center><iframe src="http://76.106.118.56:443/picture/1/current/" height="240"></iframe></center></a>
+                     <center><iframe src="http://76.106.118.56:443/picture/1/current/" height="240"></iframe></center>
                   </div>
                </div>
                <!-- View 2 -->
