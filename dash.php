@@ -104,10 +104,26 @@
                   </div>
                </div>
                <!--View 4 -->
-               <div onclick="location.href='http://76.106.118.56:443/';" class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
+                <!-- Christmas Lights -->
+             <div class="mdl-shadow--2dp mdl-cell--12-col" style="background-color:#83000c">
                   <div class="mdl-card-title">
-                     <center><iframe src="http://76.106.118.56:443/picture/4/current/" height="240"></iframe></center>
+                     <center>
+                        <h2 style="color:green;">Christmas Lights!</h2>
+                     </center>
                   </div>
+                  <center>
+                     <form method="get" action="gpio2.php">
+                        <button type="submit" value="ON" name="on" class="spacebuttons mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+                        <i class="material-icons">power_settings_new</i>
+                        </button>
+                        <button type="submit" value="OFF" name="off" class="spacebuttons mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+                        <i class="material-icons">power_off</i>
+                        <button type="submit" value="BLINK" name="blink" class="spacebuttons mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+                        <i class="material-icons">star_half</i>
+                        </button>
+                        </button>
+                     </form>
+                  </center>
                </div>
                <!--CARD 1-->
                <!--<div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
@@ -262,27 +278,7 @@
                      </form>
                   </center>
                </div>-->
-                <!-- Christmas Lights -->
-             <div class="mdl-shadow--2dp mdl-cell--12-col" style="background-color:#83000c">
-                  <div class="mdl-card-title">
-                     <center>
-                        <h2 style="color:green;">Christmas Lights!</h2>
-                     </center>
-                  </div>
-                  <center>
-                     <form method="get" action="gpio2.php">
-                        <button type="submit" value="ON" name="on" class="spacebuttons mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
-                        <i class="material-icons">power_settings_new</i>
-                        </button>
-                        <button type="submit" value="OFF" name="off" class="spacebuttons mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
-                        <i class="material-icons">power_off</i>
-                        <button type="submit" value="BLINK" name="blink" class="spacebuttons mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
-                        <i class="material-icons">star_half</i>
-                        </button>
-                        </button>
-                     </form>
-                  </center>
-               </div>
+               
                <!-- Made with love -->
                </div><div class="mdl-shadow--2dp mdl-cell--12-col" style="background-color:#3c3a3f">
                   <div class="mdl-card-title">
