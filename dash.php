@@ -86,13 +86,11 @@
          <main>
             <div class="mdl-grid">
                <!--View 1-->
-               <a href="http://76.106.118.56:443/"
                <div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
                   <div class="mdl-card-title">
-                     <center><iframe src="http://76.106.118.56:443/picture/1/current/" height="240"></iframe></center>
+                     <center><iframe href="http://76.106.118.56:443/" src="http://76.106.118.56:443/picture/1/current/" height="240"></iframe></center>
                   </div>
                </div>
-            </a>
                <!-- View 2 -->
                <div onclick="location.href='http://76.106.118.56:443/';" class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
                   <div class="mdl-card-title">
