@@ -288,6 +288,7 @@
                   </div>
                </div>
               <!-- CHECK IT OUT ON YOUTUBE -->
+               <div class="mdl-layout--spacer"></div>
             <div class="mdl-shadow--2dp mdl-cell--12-col" style="background-color:#3c3a3f">
                   <div class="mdl-card-title">
                      <center>
