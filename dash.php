@@ -280,13 +280,21 @@
                </div>-->
                
                <!-- Made with love -->
-               </div><div class="mdl-shadow--2dp mdl-cell--12-col" style="background-color:#3c3a3f">
+               <div class="mdl-shadow--2dp mdl-cell--12-col" style="background-color:#3c3a3f">
                   <div class="mdl-card-title">
                      <center>
                         <h4 style="color:white;">Made with Love for Kali by Jason</h4> 
                      </center>
                   </div>
                </div>
-              
+              <!-- CHECK IT OUT ON YOUTUBE -->
+            <div class="mdl-shadow--2dp mdl-cell--12-col" style="background-color:#3c3a3f">
+                  <div class="mdl-card-title">
+                     <center>
+                        <h2 style="color:white;">Check out the Demo Video on Youtube</h2> 
+                     </center>
+                  </div>
+               </div>
+         <!--END->
          </main>
       </body>
