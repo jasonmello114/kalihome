@@ -105,7 +105,7 @@
                </div>
                <!--View 4 -->
                 <!-- Christmas Lights -->
-             <div class="mdl-shadow--2dp mdl-cell--12-col" style="background-color:#83000c">
+             <div class="mdl-shadow--2dp mdl-cell" style="background-color:#83000c">
                   <div class="mdl-card-title">
                      <center>
                         <h2 style="color:green;">Christmas Lights!</h2>
