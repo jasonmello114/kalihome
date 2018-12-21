@@ -292,7 +292,7 @@
             <div class="mdl-shadow--2dp mdl-cell--12-col" style="background-color:#3c3a3f">
                   <div class="mdl-card-title">
                      <center>
-                        <h2 style="color:white;">Check out the Demo Video on Youtube</h2> 
+                        <h2 style="color:white;">Check out the Demo Video on <a href="https://www.w3schools.com">Youtube</a></h2> 
                      </center>
                   </div>
                </div>
