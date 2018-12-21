@@ -86,38 +86,38 @@
          <main>
             <div class="mdl-grid">
                <!--View 1-->
-               <div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
-                  <div onclick="location.href='http://76.106.118.56:443/';" class="mdl-card-title">
+               <div onclick="location.href='http://76.106.118.56:443/';" class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
+                  <div class="mdl-card-title">
                      <center><iframe src="http://76.106.118.56:443/picture/1/current/" height="240"></iframe></center>
                   </div>
                </div>
                <!-- View 2 -->
-               <div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
-                  <div onclick="location.href='http://76.106.118.56:443/';" class="mdl-card-title">
+               <div onclick="location.href='http://76.106.118.56:443/';" class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
+                  <div class="mdl-card-title">
                      <center><iframe src="http://76.106.118.56:443/picture/2/current/" height="240"></iframe></center>
                   </div>
                </div>
                <!--View 3 -->
-               <div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
-                  <div onclick="location.href='http://76.106.118.56:443/';" class="mdl-card-title">
+               <div onclick="location.href='http://76.106.118.56:443/';" class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
+                  <div class="mdl-card-title">
                      <center><iframe src="http://76.106.118.56:443/picture/3/current/" height="240"></iframe></center>
                   </div>
                </div>
                <!--View 4 -->
-               <div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
-                  <div onclick="location.href='http://76.106.118.56:443/';" class="mdl-card-title">
+               <div onclick="location.href='http://76.106.118.56:443/';" class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
+                  <div class="mdl-card-title">
                      <center><iframe src="http://76.106.118.56:443/picture/4/current/" height="240"></iframe></center>
                   </div>
                </div>
                <!--CARD 1-->
-               <div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
+               <!--<div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
                   <div onclick="location.href='http://76.106.118.56:443/';" class="mdl-card-title">
                      <center>
                         <h1></h1>
                         <h2 style="color:rgb(255, 9, 8);">Camera Management System</h2>
                      </center>
                   </div>
-               </div>
+               </div>-->
                <!--CARD 2-->
                <!--<div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
                   <div class="mdl-card-title">
