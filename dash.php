@@ -74,9 +74,9 @@
             <div class="mdl-card-title mdl-cell--3-col mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
                <center>
                   <h1 style="color:white;">
-                    <!-- <?php
+                    <?php
                         echo exec("sudo python3 dht.py") . " &deg;F";
-                     ?>-->
+                     ?>
                   </h1>
                </center>
             </div>
