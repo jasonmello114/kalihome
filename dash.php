@@ -1,4 +1,4 @@
-<html lang="en">
+<!DOCTYPE html>
       <head>
          <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico|Permanent+Marker|Righteous" rel="stylesheet">
          <meta charset="utf-8">
@@ -36,8 +36,7 @@
             z-index: 900;
             }
          </style>
-      </head>
-      <script>
+            <script>
          function startTime() {
            var today = new Date();
            var h = today.getHours();
@@ -54,6 +53,8 @@
            return i;
          }
       </script>
+      </head>
+      
       <body onload="startTime()" bgcolor="black">
          <!--HEADER-->
          <div class="mdl-grid">
@@ -117,9 +118,9 @@
                         </button>
                         <button type="submit" value="OFF" name="off" class="spacebuttons mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
                         <i class="material-icons">power_off</i>
+                         </button>    
                         <button type="submit" value="BLINK" name="blink" class="spacebuttons mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
                         <i class="material-icons">star_half</i>
-                        </button>
                         </button>
                      </form>
                   </center>
