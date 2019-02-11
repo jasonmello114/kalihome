@@ -125,34 +125,6 @@
                      </form>
                   </center>
                </div>
-               <!--CARD 1-->
-               <!--<div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
-                  <div onclick="location.href='http://76.106.118.56:443/';" class="mdl-card-title">
-                     <center>
-                        <h1></h1>
-                        <h2 style="color:rgb(255, 9, 8);">Camera Management System</h2>
-                     </center>
-                  </div>
-               </div>-->
-               <!--CARD 2-->
-               <!--<div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
-                  <div class="mdl-card-title">
-                     <center>
-                        <h2 style="color:white;">Cooling Fan</h2>
-                     </center>
-                  </div>
-                  <center>
-                     <form method="get" action="gpio8.php">
-                        <button type="submit" value="ON" name="on" class="spacebuttons mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
-                        <i class="material-icons">power_settings_new</i>
-                        </button>
-                        <button type="submit" value="OFF" name="off" class="spacebuttons mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
-                        <i class="material-icons">power_off</i>
-                        </button>
-                     </form>
-                  </center>
-               </div>-->
-               <!--CARD 3-->
                <div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
                   <div class="mdl-card-title">
                      <center>
@@ -224,61 +196,6 @@
                      </form>
                   </center>
                </div>
-               <!--CARD 7-->
-               <!--<div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
-                  <div class="mdl-card-title">
-                     <center>
-                        <h2 style="color:white;">Front Light</h2>
-                     </center>
-                  </div>
-                  <center>
-                     <form method="get" action="gpio1.php">
-                        <button type="submit" value="ON" name="on" class="spacebuttons mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
-                        <i class="material-icons">power_settings_new</i>
-                        </button>
-                        <button type="submit" value="OFF" name="off" class="spacebuttons mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
-                        <i class="material-icons">power_off</i>
-                        </button>
-                     </form>
-                  </center>
-               </div>-->
-               <!--CARD 8-->
-              <!-- <div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
-                  <div class="mdl-card-title">
-                     <center>
-                        <h2 style="color:white;">Rear Light</h2>
-                     </center>
-                  </div>
-                  <center>
-                     <form method="get" action="gpio2.php">
-                        <button type="submit" value="ON" name="on" class="spacebuttons mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
-                        <i class="material-icons">power_settings_new</i>
-                        </button>
-                        <button type="submit" value="OFF" name="off" class="spacebuttons mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
-                        <i class="material-icons">power_off</i>
-                        </button>
-                     </form>
-                  </center>
-               </div>-->
-               <!--CARD 9-->
-               <!-- <div class="mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
-                  <div class="mdl-card-title">
-                     <center>
-                        <h2 style="color:white;">Misc.</h2>
-                     </center>
-                  </div>
-                  <center>
-                     <form method="get" action="gpio7.php">
-                        <button type="submit" value="ON" name="on" class="spacebuttons mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
-                        <i class="material-icons">power_settings_new</i>
-                        </button>
-                        <button type="submit" value="OFF" name="off" class="spacebuttons mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
-                        <i class="material-icons">power_off</i>
-                        </button>
-                     </form>
-                  </center>
-               </div>-->
-               
                <!-- Made with love -->
                <div class="mdl-shadow--2dp mdl-cell--12-col" style="background-color:#3c3a3f">
                   <div class="mdl-card-title">
