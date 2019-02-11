@@ -1,5 +1,4 @@
-<html>
-   <html lang="en">
+<html lang="en">
       <head>
          <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico|Permanent+Marker|Righteous" rel="stylesheet">
          <meta charset="utf-8">
@@ -299,3 +298,4 @@
          <!--END->
          </main>
       </body>
+</html>
