@@ -19,5 +19,5 @@
                         sleep(1);
                 }
         }
-		header('Location: dash.php');
+		header('Location: dash.html');
         ?>
