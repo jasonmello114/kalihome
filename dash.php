@@ -179,7 +179,7 @@
                <div class="mdl-shadow--2dp mdl-cell--12-col" style="background-color:#3c3a3f">
                   <div class="mdl-card-title">
                      <center>
-                        <h4 style="color:white;">Made with Love for Kali by Jason</h4> 
+                        <h4 style="color:white;">Made with Love for Kali by Jason and Ashish</h4>
                      </center>
                   </div>
                </div>
