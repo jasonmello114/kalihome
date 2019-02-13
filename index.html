@@ -35,7 +35,7 @@
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
 			<div class="wrap-login100">
-				<form name="login" class="login100-form validate-form">
+				<form name="login" class="login100-form validate-form" action="javascript:void(0)">
 					<span class="login100-form-logo">
 						<i class="zmdi zmdi-lock"></i>
 					</span>
@@ -67,8 +67,7 @@
 		 /*the following code checkes whether the entered userid and password are matching*/
  		if(form.userid.value == "admin" && form.pswrd.value == "password")
 		  {
- 		   window.location.href = "dash.php";
-			  
+ 		   window.location.href = "dash.php";			  
 		  }
 		 else
 		 {
