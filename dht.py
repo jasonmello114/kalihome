@@ -1,12 +1,14 @@
 #!/usr/bin/python3
 # dht.py
-# computer-geek64
-# December 15th, 2018
+# Ashish D'Souza
+# February 13th, 2019
 
-import Adafruit_DHT
+#import Adafruit_DHT
+import requests
 
 
-humidity, temperature_c = Adafruit_DHT.read_retry(Adafruit_DHT.DHT22, 17)
-temperature_f = round(temperature_c * 9/5 + 32, 1)
+#humidity, temperature_c = Adafruit_DHT.read_retry(Adafruit_DHT.DHT22, 17)
+#temperature_f = round(temperature_c * 9/5 + 32, 1)
 # print(round(humidity, 1))
-print(round(temperature_f, 1))
+#print(round(temperature_f, 1))
+print([x for x in requests.get("http://wttr.in/?0&T&Q").text.split("\n")[1].split(" ") if x][-2])
