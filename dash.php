@@ -74,9 +74,13 @@
             <div class="mdl-card-title mdl-cell--3-col mdl-shadow--2dp mdl-cell" style="background-color:#3c3a3f">
                <center>
                   <h1 style="color:white;">
-                    <?php
+                   <h2> Indoors: <?php
                        echo exec("sudo python3 indoor.py") . " &deg;F";;
-                     ?>
+                         ?></h2>
+                        <div>
+                              <h2>Outdoors: <?php
+                       echo exec("sudo python3 outdoor.py") . " &deg;F";;
+                                    ?></h2>
                   </h1>
                </center>
             </div>
