@@ -75,7 +75,7 @@
                <center>
                   <h1 style="color:white;">
                     <?php
-                        echo exec("sudo python3 dht.py") . " &deg;F";
+                       echo exec("sudo python3 indoor.py") . " &deg;F";;
                      ?>
                   </h1>
                </center>
